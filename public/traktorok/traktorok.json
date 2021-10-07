@@ -1,0 +1,203 @@
+{
+  "gepek": 
+  [
+    {
+      "type": "John Deere",
+      "models": [
+        {
+          "model": "8R 340 ILS",
+          "kep": "/kepek/john_deere/john_deere_8R_340_ILS.png",
+          "evjarat": 2021,
+          "ar": 87.45,
+          "muszaki_adatok": {
+            "uzemora": 1403,
+            "teljesitmeny": 400,
+            "kobcenti": 9000,
+            "hengerek": 6,
+            "sebesseg": 40,
+            "onsuly": 14935,
+            "vontathatosag": 39000,
+            "uzemanyag": 727
+          }
+        },
+        {
+          "model": "8400R ILS Ultimate",
+          "kep": "/kepek/john_deere/john_deere_8400R_Ultimate_ILS.png",
+          "evjarat": 2017,
+          "muszaki_adatok": {
+            "uzemora": 1403,
+            "teljesitmeny": 400,
+            "kobcenti": 9000,
+            "hengerek": 6,
+            "sebesseg": 50,
+            "onsuly": 15425,
+            "vontathatosag": 29500,
+            "uzemanyag": 620
+          }
+        },
+        {
+          "model": "8370R ILS",
+          "kep": "/kepek/john_deere/john_deere_8370R_ILS.png",
+          "evjarat": 2016,
+          "muszaki_adatok": {
+            "uzemora": 3356,
+            "teljesitmeny": 370,
+            "kobcenti": 9000,
+            "hengerek": 6,
+            "sebesseg": 50,
+            "onsuly": 15260,
+            "vontathatosag": 33500,
+            "uzemanyag": 686
+          }
+        }
+      ]
+    },
+    {
+      "type": "Fendt",
+      "models": [
+        {
+          "model": "720 Vario",
+          "kep": "/kepek/fendt/4wd-tractors-720-vario-profi-fendt.png",
+          "evjarat": 2021,
+          "ar": 87.45,
+          "muszaki_adatok": {
+            "uzemora": 3543,
+            "teljesitmeny": 237,
+            "kobcenti": 10000,
+            "hengerek": 6,
+            "sebesseg": 40,
+            "onsuly": 16000,
+            "vontathatosag": 39000,
+            "uzemanyag": 727
+          }
+        },
+        {
+          "model": "930 Vario",
+          "kep": "/kepek/fendt/4wd-tractors-930-vario-profi-fendt.png",
+          "evjarat": 2017,
+          "muszaki_adatok": {
+            "uzemora": 1403,
+            "teljesitmeny": 400,
+            "kobcenti": 9000,
+            "hengerek": 6,
+            "sebesseg": 50,
+            "onsuly": 15425,
+            "vontathatosag": 29500,
+            "uzemanyag": 620
+          }
+        },
+        {
+          "model": "1042 Vario",
+          "kep": "/kepek/fendt/4wd-tractors-1042-vario-fendt.jpg",
+          "evjarat": 2016,
+          "muszaki_adatok": {
+            "uzemora": 3356,
+            "teljesitmeny": 370,
+            "kobcenti": 9000,
+            "hengerek": 6,
+            "sebesseg": 50,
+            "onsuly": 15260,
+            "vontathatosag": 33500,
+            "uzemanyag": 686
+          }
+        }
+      ]
+    },
+    {
+      "type": "MTZ",
+      "models": [
+        {
+          "model": "920",
+          "kep": "/kepek/mtz/mtz_920.jpg",
+          "evjarat": 2021,
+          "ar": 87.45,
+          "muszaki_adatok": {
+            "uzemora": 10,
+            "teljesitmeny": 80,
+            "kobcenti": 4750,
+            "hengerek": 4,
+            "sebesseg": 36.6,
+            "onsuly": 4700,
+            "vontathatosag": 10000,
+            "uzemanyag": 130
+          }
+        },
+        {
+          "model": "921",
+          "kep": "/kepek/mtz/belarus-mtz-921.3-traktor.jpg",
+          "evjarat": 2017,
+          "muszaki_adatok": {
+            "uzemora": 100,
+            "teljesitmeny": 90,
+            "kobcenti": 9000,
+            "hengerek": 4,
+            "sebesseg": 40,
+            "onsuly": 3925,
+            "vontathatosag": 10000,
+            "uzemanyag": 95
+          }
+        },
+        {
+          "model": "952",
+          "kep": "/kepek/mtz/23_48_70-_952_4_.png",
+          "evjarat": 2016,
+          "muszaki_adatok": {
+            "uzemora": 3356,
+            "teljesitmeny": 370,
+            "kobcenti": 9000,
+            "hengerek": 6,
+            "sebesseg": 50,
+            "onsuly": 15260,
+            "vontathatosag": 33500,
+            "uzemanyag": 686
+          }
+        },
+        {
+          "model": "1220",
+          "kep": "/kepek/mtz/MTZ1220.4.png",
+          "evjarat": 2016,
+          "muszaki_adatok": {
+            "uzemora": 3356,
+            "teljesitmeny": 370,
+            "kobcenti": 9000,
+            "hengerek": 6,
+            "sebesseg": 50,
+            "onsuly": 15260,
+            "vontathatosag": 33500,
+            "uzemanyag": 686
+          }
+        },
+        {
+          "model": "1221",
+          "kep": "/kepek/mtz/MTZ1221.4.png",
+          "evjarat": 2016,
+          "muszaki_adatok": {
+            "uzemora": 3356,
+            "teljesitmeny": 370,
+            "kobcenti": 9000,
+            "hengerek": 6,
+            "sebesseg": 50,
+            "onsuly": 15260,
+            "vontathatosag": 33500,
+            "uzemanyag": 686
+          }
+        },
+        {
+          "model": "1523",
+          "kep": "/kepek/mtz/MTZ1523.4.png",
+          "evjarat": 2016,
+          "muszaki_adatok": {
+            "uzemora": 3356,
+            "teljesitmeny": 370,
+            "kobcenti": 9000,
+            "hengerek": 6,
+            "sebesseg": 50,
+            "onsuly": 15260,
+            "vontathatosag": 33500,
+            "uzemanyag": 686
+          }
+        }
+      ]
+    }
+  ]
+}

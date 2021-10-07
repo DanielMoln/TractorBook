@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traktorok | AgroMakro</title>
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <h1>AgroMakro</h1>
+    </nav>
+
+    <main>
+      <form action="/" id="filter_form" method="POST">
+        <fieldset>
+          <legend>
+            <h2>Katalógús</h2>
+          </legend>
+
+          <div class="input">
+            <label for="">Modell</label>
+            <select class="form-select" aria-label="" id="modell">
+              <option value="johndeere">John Deere</option>
+              <option value="fendt">Fendt</option>
+              <option value="mtz">Mtz</option>
+              <option value="claas">Claas</option>
+              <option value="newholland" selected>New Holland</option>
+            </select>
+          </div>
+
+          <div class="input">
+            <label for="evjarat">Évjárat</label>
+            <input type="number" id="evjarat">
+          </div>
+
+          <div class="input">
+            <label for="vontathatosag">Vontathatóság</label>
+            <input type="number" id="vontathatosag">
+          </div>
+
+          <div class="input">
+            <label for="hengerek">Hengerek Száma</label>
+            <input type="number" id="hengerek">
+          </div>
+
+          <div class="input">
+            <label for="kobcenti">Köbcenti</label>
+            <input type="number" id="kobcenti">
+          </div>
+
+          <div class="input">
+            <label for="teljesitmeny">Teljesítmény</label>
+            <input type="number" id="teljesitmeny">
+          </div>
+
+          <div class="input">
+            <label for="uzemora">Üzemóra</label>
+            <input type="number" id="uzemora">
+          </div>
+          
+          <button type="submit">Szűrés</button>
+        </fieldset>
+      </form>
+
+    <nav></nav>
+    
+    <section id="content"></section>
+
+    </main>
+
+    <nav></nav>
+
+    <footer>
+      <h5>&copy AgroPark 2021 - 2022</h5>
+    </footer>
+
+    <script type="text/javascript" src="./js/loader.js"></script>
+  </div>
+</body>
+</html>
