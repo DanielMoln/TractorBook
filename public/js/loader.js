@@ -1,8 +1,9 @@
 const section = document.getElementById('content');
+let traktorokJson = null;
 
 async function render()
 {
-  const traktorokJson = await fetch('/traktorok/osszes');
+  traktorokJson = await fetch('/traktorok/osszes');
   const traktorok = await traktorokJson.json();
   
   try
@@ -46,7 +47,6 @@ window.onload = () => render();
 document.getElementById('filter_form').onsubmit = (e) => {
   e.preventDefault();
   const form = e.target.elements;
-  search(form);
 }
 
 async function search(form)
@@ -68,11 +68,11 @@ async function search(form)
     uzemora: uzemora
   };
 
-  const talalatok = await fetch('/', { 
+  const talalatok = await fetch('/', {
+      method: 'POST',
       headers: {
         "Content-Type": "application/json"
       },
-      method: 'POST',
       body: JSON.stringify(body),
     });
   const adatok = await talalatok.json();
