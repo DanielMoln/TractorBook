@@ -1,0 +1,1 @@
+In the pathController, the fs.readFile (  ... ) not find the traktorok.json file

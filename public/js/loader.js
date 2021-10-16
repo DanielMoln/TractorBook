@@ -1,21 +1,19 @@
-const section = document.getElementById('content');
-let traktorokJson = null;
+const section = document.getElementById('content')
+let traktorokJson = null
 
 async function render()
 {
-  traktorokJson = await fetch('/traktorok/osszes');
-  const traktorok = await traktorokJson.json();
-  
+  traktorokJson = await fetch('/traktorok/osszes')
+  const traktorok = await traktorokJson.json()
+  console.log(traktorok);
   try
   {
-    for (let i = 0; i < traktorok.gepek.length; i++)
+    for (let gep of traktorok.gepek)
     {
-      let gep = traktorok.gepek[i];
-      for (let j = 0; j < gep.models.length; j++)
+      for (let model of gep.models)
       {
-        let model = gep.models[j];
         section.innerHTML += `
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem">
             <img src="${model.kep}" class="card-img-top" alt="${gep.type + ' ' +model.model}">
             <div class="card-body">
               <h5 class="card-title">${gep.type+' '+model.model}</h5>
@@ -34,30 +32,31 @@ async function render()
               <a href="#" class="btn btn-primary">Megnézem</a>
             </div>
           </div>
-        `;
+        `
       }
     }
   } catch (e) {
-    new Error('Hiba lépett fel parsoláskor!');
+    console.error('Hiba lépett fel a traktorok renderelésével!')
   }
 }
 
-window.onload = () => render();
+window.onload = () => render()
 
 document.getElementById('filter_form').onsubmit = (e) => {
-  e.preventDefault();
-  const form = e.target.elements;
+  e.preventDefault()
+  const form = e.target.elements
+  search(form)
 }
 
 async function search(form)
 {
-  const modell = form.modell.value;
-  const evjarat = form.evjarat.value;
-  const vontathatosag = form.vontathatosag.value;
-  const hengerek = form.hengerek.value;
-  const kobcenti = form.kobcenti.value;
-  const teljesitmeny = form.teljesitmeny.value;
-  const uzemora = form.uzemora.value;
+  const modell = form.modell.value
+  const evjarat = form.evjarat.value
+  const vontathatosag = form.vontathatosag.value
+  const hengerek = form.hengerek.value
+  const kobcenti = form.kobcenti.value
+  const teljesitmeny = form.teljesitmeny.value
+  const uzemora = form.uzemora.value
   const body = {
     modell: modell,
     evjarat: evjarat,
@@ -66,7 +65,7 @@ async function search(form)
     kobcenti: kobcenti,
     teljesitmeny: teljesitmeny,
     uzemora: uzemora
-  };
+  }
 
   const talalatok = await fetch('/', {
       method: 'POST',
@@ -74,65 +73,49 @@ async function search(form)
         "Content-Type": "application/json"
       },
       body: JSON.stringify(body),
-    });
-  const adatok = await talalatok.json();
+    })
+  const adatok = await talalatok.json()
 
   try
   {
-      /*
-        response sample:
-        {
-          model: 'John Deere 8370R ILS',
-          kep: '...',
-          evjarat: 2016,
-          vontathatosag: 33500,
-          hengerek: 6,
-          kobcenti: 9000,
-          teljesitmeny: 370,
-          uzemora: 3356
-        }
-      */
-
-    console.log(adatok);
-
     if (adatok.length === 0)
     {
       section.innerHTML = `
           <div class="error">
               <p>Ilyen modell nem található az adatbázisunkban.</p>
           </div
-        `;
-      return;
+        `
+      return
     }
 
-    /* remove cahced 'Nincs ilyen modell...' */
-    section.innerHTML = ``;
+    /* section tartalom törlése */
+    section.innerHTML = ``
 
-    for (let i = 0; i < adatok.length; i++)
+    for (let traktor of adatok)
     {
       section.innerHTML += `
-        <div class="card" style="width: 18rem;">
-          <img src="${adatok[i].kep}" class="card-img-top" alt="${adatok[i].model}" title="${adatok[i].model}">
+        <div class="card" style="width: 18rem">
+          <img src="${traktor.kep}" class="card-img-top" alt="${traktor.model}" title="${traktor.model}">
           <div class="card-body">
-            <h5 class="card-title">${adatok[i].model}</h5>
+            <h5 class="card-title">${traktor.model}</h5>
             <br/>
-            <p class="card-text">Évjárat: ${adatok[i].evjarat}</p>
-            <p class="card-text">Üzemóra: ${adatok[i].uzemora} h</p>
-            <p class="card-text">Teljesítmény: ${adatok[i].teljesitmeny} LE</p>
-            <p class="card-text">Köbcenti: ${adatok[i].kobcenti} cm<sup>3</sup></p>
-            <p class="card-text">Hengerek: ${adatok[i].hengerek}</p>
-            <p class="card-text">Sebesség: ${adatok[i].sebesseg} km/h</p>
-            <p class="card-text">Önsúly: ${adatok[i].onsuly} kg</p>
-            <p class="card-text">Vontathatósag: ${adatok[i].vontathatosag} kg</p>
-            <p class="card-text">Üzemanyag tank: ${adatok[i].uzemanyag} l</p>
-            <p class="card-text price">Ár: <span class="price">${( adatok[i].ar == undefined ? '32' : adatok[i].ar)}</span> millió Ft</p>
+            <p class="card-text">Évjárat: ${traktor.evjarat}</p>
+            <p class="card-text">Üzemóra: ${traktor.uzemora} h</p>
+            <p class="card-text">Teljesítmény: ${traktor.teljesitmeny} LE</p>
+            <p class="card-text">Köbcenti: ${traktor.kobcenti} cm<sup>3</sup></p>
+            <p class="card-text">Hengerek: ${traktor.hengerek}</p>
+            <p class="card-text">Sebesség: ${traktor.sebesseg} km/h</p>
+            <p class="card-text">Önsúly: ${traktor.onsuly} kg</p>
+            <p class="card-text">Vontathatósag: ${traktor.vontathatosag} kg</p>
+            <p class="card-text">Üzemanyag tank: ${traktor.uzemanyag} l</p>
+            <p class="card-text price">Ár: <span class="price">${( traktor.ar == undefined ? '32' : traktor.ar)}</span> millió Ft</p>
             <br/>
             <a href="#" class="btn btn-primary">Megnézem</a>
           </div>
         </div>
-      `;
+      `
     }
   } catch (e) {
-    console.error('Hiba lépett fel a szűrési viszontválasz parsolásakor! ' + e);
+    console.error('Hiba lépett fel a szűrési viszontválasz parsolásakor! ' + e)
   }
 }
