@@ -32,7 +32,8 @@ module.exports = (app, jsonParser) => {
   })
 
   app.get('/traktorok/osszes', (req,res) => {
-    res.status(200).setHeader('content-type', 'application/json')
+    res.setHeader('content-type', 'application/json')
+    res.status(200)
           .send(JSON.stringify(traktorok))
   });
   
@@ -70,7 +71,8 @@ module.exports = (app, jsonParser) => {
       }
 
       /* end of file reading */
-      res.status(200).setHeader('Content-Type', 'application/json')
+      res.setHeader('Content-Type', 'application/json')
+      res.status(200)
         .end(JSON.stringify(talalatok));
 
     } catch (e) {
