@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Fendt 720",
+    "paragraph": "A hathengeres Deutz motor 6,06 l lökettérfogattal, CommonRail befecskendezéssel és rail nyomás szabályozó szeleppel, valamint a Fendt SCR technológiával és a koromrészecske-szűrővel (CSF) magas minőségű, hatékony és üzemanyag-takarékos technikát kínál, amelynek használata során a passzív regeneráció külön üzemanyag-befecskendezés nélkül megy végbe. A nagyobb hatékonyságról az új, négy fordulatszámú 1000 E TLT gondoskodik.",
+    "img": "<img src='./tractors/fendt/720.png'>"
+  },
+  {
+    "name": "Fendt 930",
+    "paragraph": "Az új 930 Vario traktorral a Fendt a globális jelenlétét kívánja erősíteni – például Észak- és Dél-Amerikában, valamint Afrikában és Ausztráliában is. A korábbi modellekkel ez nem sikerült úgy, ahogy remélték – ami többek között a kínálatból hiányzó nyomtávokon, a részben túl bőséges felszereltségen és más körülményeken múlott.",
+    "img": "<img src='./tractors/fendt/930.png'>"
+  },
+  {
+    "name": "Fendt 1050",
+    "paragraph": "Az 500 lóerős traktor FendtVarioDrive hajtásláncának előnye a szántóföldi munkáknál jól érvényesül. A fejlesztés során arra törekedtek, hogy a nagy motorteljesítmény a változó körülmények ellenére is (a talajállapot függvényében) megfelelő mértékű vonóerő formájában legyen érvényesíthető, viszonylag alacsony motor fordulatnál.",
+    "img": "<img src='./tractors/fendt/1042.jpg'>"
+  }
+]
