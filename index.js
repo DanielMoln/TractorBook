@@ -1,6 +1,6 @@
 const Express = require('express')
 const BodyParser = require('body-parser')
-const PathController = require('./controllers/pathController')
+const PathController = require('./controllers/PathController')
 const Path = require('path')
 require('dotenv').config()
 

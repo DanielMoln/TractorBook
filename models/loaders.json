@@ -1,0 +1,18 @@
+[
+  {
+    "meta": "loaders",
+    "company": "John Deere",
+    "type": "440r",
+    "description": [
+      "A LoadMatch™ funkció megakadályozza a motor lefulladását azzal, hogy a motorfordulatszámot a motorterhelésnek megfelelően állítja be. ",
+      "A standard Hitch Assist funkció gyorsabbá és biztonságosabbá teszi a hátsó 3-pont függesztő működését.",
+      "Az opciós önszintező Quik-Park™ homlokrakodó kevesebb, mint három perc alatt csatlakoztatható, a standard légrugózású ülés pedig egész nap gondoskodik az Ön kényelméről és termelékenységéről."
+    ],
+    "img": "<img src='./loaders/john_deere/440r.png'>",
+    "informations": {
+      "horsepower": 490,
+      "displacement": 9000,
+      "year": 2016
+    }
+  }
+]
