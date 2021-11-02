@@ -1,0 +1,18 @@
+[
+  {
+    "meta": "combines",
+    "company": "John Deere",
+    "type": "X9 1000",
+    "description": [
+      "Az új X9 kombájncsalád tavaly novemberi, európai premierje kapcsán, a magleválasztási koncepcióját már a hannoveri vásáron megismerhettük, hiszen a kombájn mellett kiállítva és egy animáción mindenki testközelből tanulmányozhatta a duplarotoros magleválasztási rendszert.",
+      "A John Deere a tengerentúlon, június 15-én hivatalosan is bemutatta a már sorozatgyártásra kész, két modellből álló X9 kombájncsaládot az amerikai farmerek előtt. Az új széria ott a 2021-es betakarítási szezonra rendelhető. ",
+      "Az X9 erőforrása a jól ismert 13,6 literes John Deere PowerTech ™ PWS dízelmotor, amely az 1000-es modellben 549, míg az 1100-as típusban 603 LE névleges teljesítményű. "
+    ],
+    "img": "<img src='./combines/john_deere/x9-1100.png'>",
+    "informations": {
+      "horsepower": 413,
+      "displacement": 9000,
+      "year": 2016
+    }
+  }
+]

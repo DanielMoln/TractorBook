@@ -1,0 +1,16 @@
+[
+  {
+    "meta": "trailers",
+    "company": "Pronar",
+    "type": "T700",
+    "description": [
+      "A PRONAR T700 pótkocsi egy kiváló monocoque tandem pótkocsi. Nagy teherbírása révén nehéz körülmények közti munkavégzésre alkalmas",
+      "Ennek a pótkocsinak a speciális ismertetőjegye az elforduló tengely, amely megkönnyíti a kormányozhatóságát. Az ügyfelek minden bizonnyal nagyra értékelik majd, hogy pótkocsi rugózott vonórúddal van felszerelve, ami fokozza a komfortot a nagy terhek szállítása során.",
+      "A hidraulikusan nyitható, automata zárral rendelkező hátfal szintén növeli a használhatóságot."
+    ],
+    "img": "<img src='./trailers/pronar/T700nr1.jpg'>",
+    "informations": {
+      "weight": 24000
+    }
+  }
+]
