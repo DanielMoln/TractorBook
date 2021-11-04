@@ -279,15 +279,15 @@ const insertMachine = (machine) => {
 
             <div class="mbs2" style="display: none">
               <div class="statistic">
-                <p><strong>Horsepower: <span style="color: #666;">${machine.informations.horsepower}</span></strong></p>
+                <p><strong>Lóerő: <span style="color: #666;">${machine.informations.horsepower}</span></strong></p>
               </div>
 
               <div class="statistic">
-                <p><strong>Displacement: <span style="color: #666;">${machine.informations.displacement} cm<sup>3</sup></span></strong></p>
+                <p><strong>Köbcenti: <span style="color: #666;">${machine.informations.displacement} cm<sup>3</sup></span></strong></p>
               </div>
 
               <div class="statistic">
-                <p><strong>Year: <span style="color: #666;">${machine.informations.year}</span></strong></p>
+                <p><strong>Évjárat: <span style="color: #666;">${machine.informations.year}</span></strong></p>
               </div>
             </div>
           </div>
@@ -322,15 +322,15 @@ const insertMachine = (machine) => {
 
             <div class="mbs2">
               <div class="statistic">
-                <p><strong>Horsepower: <span style="color: #666;">${machine.informations.horsepower}</span></strong></p>
+                <p><strong>Lóerő: <span style="color: #666;">${machine.informations.horsepower}</span></strong></p>
               </div>
 
               <div class="statistic">
-                <p><strong>Displacement: <span style="color: #666;">${machine.informations.displacement} cm<sup>3</sup></span></strong></p>
+                <p><strong>Köbcenti: <span style="color: #666;">${machine.informations.displacement} cm<sup>3</sup></span></strong></p>
               </div>
 
               <div class="statistic">
-                <p><strong>Year: <span style="color: #666;">${machine.informations.year}</span></strong></p>
+                <p><strong>Évjárat: <span style="color: #666;">${machine.informations.year}</span></strong></p>
               </div>
             </div>
           </div>

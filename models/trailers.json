@@ -12,5 +12,17 @@
     "informations": {
       "weight": 24000
     }
+  },
+  {
+    "meta": "trailers",
+    "company": "Umega",
+    "type": "PI 42",
+    "description": [
+      " cukorrépa lift (a kirakodás kapacitása kb. 600 m³/h, a kirakodási magasság hidraulikusan állítható 2,0 és 4,7 méter között, az adapter jobb és bal oldalra telepíthető, a pótkocsi kirakodásának távolsága 5 m-ig)"
+    ],
+    "img": "<img src='./trailers/umega/pi42.jpeg'>",
+    "informations": {
+      "weight": 28000
+    }
   }
 ]

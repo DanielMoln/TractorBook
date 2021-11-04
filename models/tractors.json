@@ -9,9 +9,84 @@
     ],
     "img": "<img src='./tractors/fendt/1042.jpg'>",
     "informations": {
-      "horsepower": 420,
+      "horsepower": 240,
+      "displacement": 7000,
+      "year": 2013
+    }
+  },
+  {
+    "meta": "tractors",
+    "company": "Fendt",
+    "type": "930",
+    "description": [
+      "Az új 930 Vario traktorral a Fendt a globális jelenlétét kívánja erősíteni – például Észak- és Dél-Amerikában, valamint Afrikában és Ausztráliában is. ",
+      "A korábbi modellekkel ez nem sikerült úgy, ahogy remélték – ami többek között a kínálatból hiányzó nyomtávokon, a részben túl bőséges felszereltségen és más körülményeken múlott."
+    ],
+    "img": "<img src='./tractors/fendt/930.png'>",
+    "informations": {
+      "horsepower": 300,
       "displacement": 9000,
-      "year": 2016
+      "year": 2014
+    }
+  },
+  {
+    "meta": "tractors",
+    "company": "Fendt",
+    "type": "1050",
+    "description": [
+      "Az 500 lóerős traktor FendtVarioDrive hajtásláncának előnye a szántóföldi munkáknál jól érvényesül. ",
+      "A fejlesztés során arra törekedtek, hogy a nagy motorteljesítmény a változó körülmények ellenére is (a talajállapot függvényében) megfelelő mértékű vonóerő formájában legyen érvényesíthető, viszonylag alacsony motor fordulatnál."
+    ],
+    "img": "<img src='./tractors/fendt/1042.jpg'>",
+    "informations": {
+      "horsepower": 500,
+      "displacement": 9000,
+      "year": 2017
+    }
+  },
+  {
+    "meta": "tractors",
+    "company": "John Deere",
+    "type": "8R 340",
+    "description": [
+      "A megújult John Deere 8R sorozatú traktorok hűek maradnak az örökségükhöz, és tartalmaznak minden olyan csúcstechnológiai fejlesztést, melyet a modern gazdaság megkövetel. ",
+      "Az igazán megbízható kerekes és 2 hevederes kialakítás mellé most megérkezett az új konstrukció, a 9-es szériából már ismert négy hevederes verzió, a 8RX. A 8R/RT/RX sorozatú traktorok merész tervezése mutatja meg, hogy miről szólnak: megállíthatatlan vonóerőről, és a modern gazdálkodást meghatározó technológiáról."
+    ],
+    "img": "<img src='./tractors/john_deere/8370R.png'>",
+    "informations": {
+      "horsepower": 250,
+      "displacement": 9000,
+      "year": 2018
+    }
+  },
+  {
+    "meta": "tractors",
+    "company": "John Deere",
+    "type": "8400R",
+    "description": [
+      "A megújult John Deere 8R sorozatú traktorok hűek maradnak az örökségükhöz, és tartalmaznak minden olyan csúcstechnológiai fejlesztést, melyet a modern gazdaság megkövetel. ",
+      "Az igazán megbízható kerekes és 2 hevederes kialakítás mellé most megérkezett az új konstrukció, a 9-es szériából már ismert négy hevederes verzió, a 8RX. A 8R/RT/RX sorozatú traktorok merész tervezése mutatja meg, hogy miről szólnak: megállíthatatlan vonóerőről, és a modern gazdálkodást meghatározó technológiáról."
+    ],
+    "img": "<img src='./tractors/john_deere/8400R.png'>",
+    "informations": {
+      "horsepower": 240,
+      "displacement": 9000,
+      "year": 2018
+    }
+  },
+  {
+    "meta": "tractors",
+    "company": "John Deere",
+    "type": "8370R",
+    "description": [
+      "A megújult John Deere 8R sorozatú traktorok hűek maradnak az örökségükhöz, és tartalmaznak minden olyan csúcstechnológiai fejlesztést, melyet a modern gazdaság megkövetel. ",
+      "Az igazán megbízható kerekes és 2 hevederes kialakítás mellé most megérkezett az új konstrukció, a 9-es szériából már ismert négy hevederes verzió, a 8RX. A 8R/RT/RX sorozatú traktorok merész tervezése mutatja meg, hogy miről szólnak: megállíthatatlan vonóerőről, és a modern gazdálkodást meghatározó technológiáról."
+    ],
+    "img": "<img src='./tractors/john_deere/8370R.png'>",
+    "informations": {
+      "horsepower": 310,
+      "displacement": 9000,
+      "year": 2018
     }
   }
 ]

@@ -10,9 +10,23 @@
     ],
     "img": "<img src='./combines/john_deere/x9-1100.png'>",
     "informations": {
-      "horsepower": 413,
+      "horsepower": 500,
       "displacement": 9000,
       "year": 2016
+    }
+  },
+  {
+    "meta": "combines",
+    "company": "Claas",
+    "type": "Lexion 780",
+    "description": [
+      "135 tonna/órás rekord teljesítményt ért el, szemeskukoricában egy Yorkwill-i gazdaságban. Ráadásul a 8 és a 12 órás „versenyszámban” is megmérette magát a gép, és mindkét kategóriában sikerült a csúcsdöntés!"
+    ],
+    "img": "<img src='./combines/claas/lexion-780.jpg'>",
+    "informations": {
+      "horsepower": 790,
+      "displacement": 10000,
+      "year": 2019
     }
   }
 ]
