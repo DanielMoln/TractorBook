@@ -185,6 +185,7 @@ main
 }
 .sortOptions
 {
+	width: auto;
 	display: none;
 	position: absolute;
 	background: #666;
@@ -423,6 +424,10 @@ footer p
 }
 @media screen and (max-width: 600px)
 {
+	.sortOptions button
+	{
+		font-size: 10px;
+	}
 	main
 	{
 		padding: 0 50px;
@@ -430,6 +435,10 @@ footer p
 }
 @media screen and (max-width: 450px)
 {
+	.sortOptions button
+	{
+		font-size: 10px;
+	}
 	nav
 	{
 		display: flex;
